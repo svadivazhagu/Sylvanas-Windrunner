@@ -17,10 +17,8 @@ client.on('message', msg => {
 			msg.channel.send(author + ", WoW Shadowlands is not out yet. It's coming on 10/26/2020.")
 		}
 
-		// console.log( + );
 	}
 });
 
-// in future when putting on Git/etc replace token with something else for security
 client.login(process.env.BOT_TOKEN);
 
