@@ -19,7 +19,7 @@ client.on('message', msg => {
 	}
 	if (msg.content === '*prepatch') {
 		const author = msg.author['username'];
-		msg.channel.send(author + ', WoW Shadowlands Prepatch date has not been announced yet.');
+		msg.channel.send(author + ', WoW Shadowlands Pre-Patch date has not been announced yet.');
 	}
 });
 
