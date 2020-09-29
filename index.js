@@ -22,5 +22,5 @@ client.on('message', msg => {
 });
 
 // in future when putting on Git/etc replace token with something else for security
-client.login('');
+client.login('NzYwNTI1MjQ2NTMyNTUwNjc2.X3NUVA.Ls8kTTK9mgiC7IDSMa2HYU67UH8');
 
