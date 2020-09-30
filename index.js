@@ -7,7 +7,7 @@ client.once('ready', () => {
 
 
 client.on('message', msg => {
-	if (msg.content === '*sl') {
+	if (msg.content === '*sl' && msg.channel['name'] === 'ness-mains') {
 		const author = msg.author['username'];
 		console.log(msg.channel);
 		const date = new Date();
@@ -20,7 +20,7 @@ client.on('message', msg => {
 			msg.channel.send(author + ", WoW Shadowlands is not out yet. It's coming on 10/26/2020. That's " + String(shadowlands_time) + ' days away.');
 		}
 	}
-	if (msg.content === '*prepatch') {
+	if (msg.content === '*prepatch' && msg.channel['name'] === 'ness-mains') {
 		const author = msg.author['username'];
 		msg.channel.send(author + ', WoW Shadowlands Pre-Patch date has not been announced yet.');
 	}
