@@ -9,6 +9,7 @@ client.once('ready', () => {
 client.on('message', msg => {
 	if (msg.content === '*sl') {
 		const author = msg.author['username'];
+		console.log(msg.channel);
 		const date = new Date();
 		if (String((date.getMonth() + 1)) + date.getDate() === '1026') {
 			msg.channel.send(author + ', WoW Shadowlands is out! Get on!');
