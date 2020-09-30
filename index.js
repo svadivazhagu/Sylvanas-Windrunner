@@ -16,7 +16,7 @@ client.on('message', msg => {
 		else {
 			const time = date.getTime();
 			const shadowlands_time = Math.round((1603670400000 - time) / (60 * 60 * 24 * 1000)) + 1;
-			msg.channel.send(author + ", WoW Shadowlands is not out yet. It's coming on 10/26/2020. That's " + String(shadowlands_time) + ' days away.');
+			msg.channel.send(author + ", WoW Shadowlands is not out yet. It's coming on 10/26/2020. That's " + String(shadowlands_time) + ' days away. For the Horde!');
 		}
 	}
 	if (msg.content === '*prepatch' && msg.channel['name'] === 'ness-mains') {
