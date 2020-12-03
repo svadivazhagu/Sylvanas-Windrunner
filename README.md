@@ -1,4 +1,16 @@
-# Shadowlands Bot
+# Sylvanas Windrunner
+## Discord bot for World of Warcraft Profiles
 
-A simple Discord bot where you can ask if World of Warcraft: Shadowlands/associated pre-patch event is out yet. 
-When they announce pre-patch I will add support for that date in the code.
+
+A simple Discord.py bot for checking WoW profiles
+
+TODO:
+ - restructure in Py (or whatever language)
+ - use the wow Profile api to load in a user's data
+
+Future:
+- Events in WoW tracking (sending updates)
+- Check lockouts
+- Pull parsing data in M+/Raids
+- Get gear information from dungeons/raids
+- saving profiles to the bot for cleaner interactions (bot only operates in DMs?)
